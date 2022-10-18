@@ -1,7 +1,7 @@
-fun main () {
+fun main() {
     val sum: Int = 12500
     var discount: Float = 0F
-    if(sum >= 1001 && sum < 10000 ) {
+    if (sum >= 1001 && sum < 10000) {
         discount = 100F
     }
     if (sum >= 10001) {
@@ -9,11 +9,9 @@ fun main () {
     }
     var endSum: Float = sum - discount
 
-  /*  val musicLover = true
+    val musicLover = true
+    println("Итоговая сумма: " + endSum + " рублей")
     if (musicLover) {
-        endSum = endSum * 0.01F
+        println("Итоговая сумма: " + endSum * 0.99F + " рублей")
     }
-    Запутался относительно "МЕЛОМАНА" при написания кода в условном операторе
-   */
-    println("Итоговая сумма: "  + endSum + " рублей")
 }
